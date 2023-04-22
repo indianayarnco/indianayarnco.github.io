@@ -1,0 +1,505 @@
+/* Deanna Yohn 12/09/2022 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #6e8881af;
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+	float: left;
+}
+
+.pic {
+	max-width: 100%;
+}
+
+video {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0em;
+
+}
+
+/* Style for nav li sspecifies the background color, rounded corners, 
+removes bullet style, and applies margins and padding for list items
+within the navigation */
+nav li {
+
+	list-style-type: none;
+	font-family: 'Calibri';
+	text-align: center;
+	border-color: #162020;
+	border-radius: 2em;
+	border-style: solid;
+	border-width: 0.1em;
+
+}
+
+.p2 {
+	text-align: center;
+	padding-bottom: 2em;
+
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #334a4a;
+	text-decoration: none;
+
+}
+
+nav li a:hover {
+	font-size: 2em;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+
+}
+
+figure {
+	padding: 0em;
+	margin: 0em;
+}
+
+section {
+	margin: 0em;
+	padding: 0em;
+}
+
+table {
+	padding: 2em;
+	table-layout: auto;
+	border: 1px solid #162020;
+
+}
+
+td {
+
+	text-align: center;
+	
+}
+
+th {
+
+	text-align: center;
+}
+
+
+.img2 {
+	width: 100%;
+}
+
+.ig-container {
+	display: block;
+	justify-content: center;
+	text-align:center;
+	margin-left:auto; 
+	margin-right:auto;
+
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: "Dosis", "Calibri", sans-serif;
+	font-size: 2em;
+	margin-top: 1em;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+h3 {
+	font-family: "Dosis", "Calibri", sans-serif;
+	font-size: 1.5em;
+	margin-top: 1em;
+	text-align: center;
+	color: #334a4a;
+	font-weight: 500;
+}
+
+.myname {
+	font-family: "Dosis", "Calibri", sans-serif;
+	font-weight: 300;
+	color: #293939;
+
+}
+
+/* link removes underline from links and sets color to black */
+.link {
+	text-decoration: none;
+	color: black;
+	list-style: none;
+
+}
+
+.link :hover {
+	font-size: 2em;
+	font-style: italic;
+	color: #f2d61f;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: "Dosis", "Calibri", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: 'Calibri';
+	font-size: 1em;
+	padding: 3em;
+	color: #162020;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/* Styles displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+
+/* Media query for tablet viewport targets screen size with minimum widith of 481px */
+@media only screen and (min-width:320px) {
+	#container {
+		width: 90%;
+	}
+
+	img {
+		width: 100%;
+	}
+
+
+	.pic {
+		max-width: 90%;
+		border-radius: 10em;
+	}
+
+	video {
+		max-width: 200px;
+	}
+
+	header h1 {
+		margin-bottom: 0em;
+		margin-top: 1em;
+		padding-top: 1em;
+		font-size: 1.2em;
+	}
+
+	nav {
+
+		margin-top: -2em;
+		padding-left: 7em;
+		padding-right: 7em;
+		float: left;
+		margin-bottom: -2em;
+		text-align: center;
+
+	}
+
+	nav li {
+		display: block;
+		padding: .1em;
+		margin: .3em;
+		width: 100px;
+	}
+
+	.ig-container {
+		width: 50%;
+	
+	}
+
+	main {
+		clear: left;
+		margin-top: -5em;
+		color: #516661;
+		background-color: #ffffff;
+	}
+
+	h2 {
+		padding: 0em;
+	}
+
+	.desktop {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+
+	#container {
+		width: 80%;
+	}
+
+
+	img {
+		width: 40%;
+	}
+
+	.img2 {
+		min-width: 150px;
+		max-width: 150px;
+	}
+
+	table {
+		table-layout: fixed;
+		overflow-x: auto;
+		display: block;
+		margin: -2em;
+
+	}
+
+	.fig2 {
+		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+
+
+
+	td {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		word-wrap: break-word;
+		height: 10em;
+
+	}
+	.ig-container{
+		padding-left: 0em;
+		padding-right: 0em;
+	}
+
+	video {
+		max-width: 500px;
+	}
+
+	nav {
+	
+		font-family: "Dosis", "Calibri", sans-serif;
+		padding-left: 0em;
+		padding-right: 3em;
+		float: left;
+		padding-top: 4em;
+	}
+
+	nav ul {
+		font-size: 14px;
+		font-family: "Dosis", "Calibri", sans-serif;
+		width: 450px;
+
+	}
+
+	nav li {
+
+		display: inline;
+		font-family: "Dosis", "Calibri", sans-serif;
+		border: none;
+		padding-right: .3em;
+
+	}
+
+	nav li a {
+		color: #334a4a;
+		font-family: "Dosis", "Calibri", sans-serif;
+		display: inline;
+
+		font-size: 1em;
+		font-weight: 700;
+	}
+
+	nav li a:link {
+		color: #334a4a;
+	}
+
+	nav li a:hover {
+		color: #f2d61f;
+		font-style: italic;
+	}
+
+	main {
+		border: none;
+		color: #516661;
+		background-color: #ffffff;
+
+	}
+
+	header h1 {
+		padding-bottom: 0em;
+		margin-top: 0em;
+		padding-top: 3em;
+		padding-right: 0em;
+		text-align: center;
+		font-size: 1em;
+
+	}
+
+	.pic {
+		width: 50%;
+		padding: 1em;
+		float: right;
+
+
+	}
+
+	.desktop {
+		display: inline;
+	}
+
+	.mobile {
+		display: none;
+	}
+}
+
+/* Media query for desktop viewport targets screen size with minimum widith of 769px */
+@media only screen and (min-width:769px) {
+	#container {
+		width: 80%;
+	}
+
+	nav {
+		display: inline;
+		font-family: "Dosis", "Calibri", sans-serif;
+		float: left;
+		padding-left: 6em;
+		
+
+		margin-bottom: -2em;
+	}
+
+	img {
+		width: 40%;
+		margin-bottom: -2em;
+		float: left;
+
+
+	}
+	.ig-container{
+		padding-left: 8em;
+		padding-right: 8em;
+	}
+
+	header {
+		padding-bottom: 4em;
+	}
+
+	header h1 {
+
+		padding-top: 2.5em;
+		font-size: 1.5em;
+		margin: 0em;
+		float: right;
+
+		width: 60%;
+	}
+
+	nav ul {
+		font-family: "Dosis", "Calibri", sans-serif;
+
+		width: 750px;
+	}
+
+	nav li {
+		display: inline;
+		font-family: "Dosis", "Calibri", sans-serif;
+		border: none;
+		padding-right: 3em;
+
+	}
+
+	nav li a {
+		color: #334a4a;
+		font-family: "Dosis", "Calibri", sans-serif;
+		display: inline-block;
+
+		font-size: 1.25em;
+		font-weight: 700;
+	}
+
+	nav li a:link {
+		color: #334a4a;
+	}
+
+	nav li a:hover {
+		color: #f2d61f;
+		font-style: italic;
+	}
+
+	main {
+		border: none;
+		color: #516661;
+		background-color: #ffffff;
+
+
+	}
+
+	section {
+		padding: 1em;
+		text-align: center;
+	}
+
+	.img2 {
+		min-width: 200px;
+		max-width: 250px;
+		;
+		float: right;
+	}
+
+	td {
+		width: 700px;
+		height: 50px;
+		padding-bottom: 2em;
+	}
+
+	table {
+		margin: 2em;
+		padding: 2em;
+	}
+
+	.pic {
+		min-width: 200px;
+		max-width: 200px;
+		padding: 2em;
+	}
+
+	.mobile {
+		display: none;
+	}
+
+	/* #nav{
+		margin: 0em;
+		padding:0em;
+	
+		
+	
+	} */
+
+
+
+}
